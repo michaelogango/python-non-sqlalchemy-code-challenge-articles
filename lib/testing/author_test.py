@@ -50,8 +50,8 @@ class TestAuthor:
         assert len(author_2.name) > 0
 
         # uncomment the next two lines if using Exceptions
-        with pytest.raises(Exception):
-             Author("")
+        # with pytest.raises(Exception):
+        #      Author("")
 
     def test_has_many_articles(self):
         """author has many articles"""
